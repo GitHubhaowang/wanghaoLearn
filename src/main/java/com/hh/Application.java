@@ -1,18 +1,21 @@
 package com.hh;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.stereotype.Component;
+
 /**
- * TODO
- *
  * @author hh
- * @version 1.0
- * @date 2021/3/4
+ * @email wanghao1@szkingdom.com
+ * @date 2021/3/5
  */
-@EnableAutoConfiguration    // 开启自动配置
-@ComponentScan  // 扫描注解 范围：当前入口类所在包及子包
+@EnableAutoConfiguration    // 作用：开启自动配置，会根据pom.xml文件中依赖自动判断 例如spring-boot-starter-web搭建web项目
+@Component  // 作用：扫描相关注解 扫描范围：当前包及子包
 public class Application {
     public static void main(String[] args) {
-        // 启动springboot应用
-        // 参数1：入口类class对象   参数2：main函数参数
+        // 作用：用来启动springboot应用
+        // 参数1：当前类类对象 参数2：main函数参数
         SpringApplication.run(Application.class, args);
     }
 }
