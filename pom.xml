@@ -6,8 +6,11 @@
     <modules>
         <module>admin</module>
         <module>boot</module>
-        <module>eureka-server1</module>
         <module>bak</module>
+        <module>eureka-server1</module>
+        <module>eureka-server2</module>
+        <module>eureka-client-provider</module>
+        <module>eureka-client-custor</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -23,7 +26,6 @@
     <description>Java learning</description>
     <properties>
         <java.version>1.8</java.version>
-        <spring-cloud.version>2020.0.1</spring-cloud.version>
     </properties>
 
     <dependencies>
@@ -45,21 +47,21 @@
         </dependency>
 
         <!-- 热部署 -->
-        <dependency>
+        <!--<dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
             <optional>true</optional>
-        </dependency>
-
-        <!--<dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.12</version>
-            <scope>provided</scope>
         </dependency>-->
 
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
 
-
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>
@@ -70,13 +72,6 @@
                 <artifactId>spring-boot-starter-thymeleaf</artifactId>
             </dependency>
 
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-dependencies</artifactId>
-                <version>${spring-cloud.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
         </dependencies>
     </dependencyManagement>
 

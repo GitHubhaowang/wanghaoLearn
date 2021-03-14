@@ -22,3 +22,14 @@
 需在@Configuration定义的类中使用
 - @import
 类似@Configuration 但只能导入单个类
+
+**IDEA中Springboot项目竖列显示**
+/**
+<component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+</component>
+*/
