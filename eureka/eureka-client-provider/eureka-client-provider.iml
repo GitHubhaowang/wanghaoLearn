@@ -5,8 +5,8 @@
       <configuration>
         <webroots />
         <sourceRoots>
-          <root url="file://$MODULE_DIR$/../eureka-client-provider/src/main/java" />
-          <root url="file://$MODULE_DIR$/../eureka-client-provider/src/main/resources" />
+          <root url="file://$MODULE_DIR$/../eureka/eureka-client-provider/src/main/java" />
+          <root url="file://$MODULE_DIR$/../eureka/eureka-client-provider/src/main/resources" />
         </sourceRoots>
       </configuration>
     </facet>
@@ -15,13 +15,13 @@
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
-    <output url="file://$MODULE_DIR$/../eureka-client-provider/target/classes" />
-    <output-test url="file://$MODULE_DIR$/../eureka-client-provider/target/test-classes" />
-    <content url="file://$MODULE_DIR$/../eureka-client-provider">
-      <sourceFolder url="file://$MODULE_DIR$/../eureka-client-provider/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../eureka-client-provider/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../eureka-client-provider/src/test/java" isTestSource="true" />
-      <excludeFolder url="file://$MODULE_DIR$/../eureka-client-provider/target" />
+    <output url="file://$MODULE_DIR$/../eureka/eureka-client-provider/target/classes" />
+    <output-test url="file://$MODULE_DIR$/../eureka/eureka-client-provider/target/test-classes" />
+    <content url="file://$MODULE_DIR$/../eureka/eureka-client-provider">
+      <sourceFolder url="file://$MODULE_DIR$/../eureka/eureka-client-provider/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../eureka/eureka-client-provider/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../eureka/eureka-client-provider/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../eureka/eureka-client-provider/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

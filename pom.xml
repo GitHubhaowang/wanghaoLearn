@@ -3,15 +3,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
+
     <modules>
         <module>admin</module>
         <module>boot</module>
         <module>bak</module>
-        <module>eureka-server1</module>
-        <module>eureka-server2</module>
-        <module>eureka-client-provider</module>
-        <module>eureka-client-custor</module>
+        <module>eureka</module>
     </modules>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
